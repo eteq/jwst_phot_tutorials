@@ -1,0 +1,20 @@
+# %ECSV 0.9
+# ---
+# datatype:
+# - {name: id, datatype: int64}
+# - {name: xcenter, unit: pix, datatype: float64}
+# - {name: ycenter, unit: pix, datatype: float64}
+# - {name: aperture_sum, unit: electron / s, datatype: float64}
+# - {name: aperture_sum_err, unit: electron / s, datatype: float64}
+# - {name: snr, unit: '', datatype: float64}
+# - {name: abmag, datatype: float64}
+# - {name: ra_icrs, unit: deg, datatype: float64}
+# - {name: dec_icrs, unit: deg, datatype: float64}
+# meta: !!omap
+# - {name: Aperture photometry results}
+# - {version: 'astropy: 1.2.1, photutils: 0.3'}
+# - {aperture_photometry_args: 'method=''exact'', subpixels=5, pixelwise_error=True'}
+id xcenter ycenter aperture_sum aperture_sum_err snr abmag ra_icrs dec_icrs
+1 90.73 59.43 0.120391545825 0.0080440231507 14.9665837069 28.2448100229 53.1588879497 -27.7649992332
+2 73.63 139.41 0.615024363298 0.00816628074162 75.3126646949 26.4740691998 53.1592095849 -27.76366615
+3 43.62 61.63 0.213526159949 0.00806976143088 26.4600337665 27.6226722755 53.1597752653 -27.7649623329
